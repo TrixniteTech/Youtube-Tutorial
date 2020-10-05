@@ -33,5 +33,6 @@ async def ban_error(ctx,error):
     else:
         raise(error)
 
+        
 
 client.run('TOKEN')    
