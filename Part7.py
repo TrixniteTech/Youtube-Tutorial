@@ -27,5 +27,4 @@ async def clear_error(ctx, error):
         await ctx.channel.send("You don't have permission to access this command!")    
         
 
-
 client.run('TOKEN') 
