@@ -35,7 +35,6 @@ async def snipe(message):
         
         await message.channel.send("Nothing to snipe is found here!")
     else:
-        king the snipe result a little fancy so it looks good when we see the result , this is the normal way which we did all other commands
         embed = discord.Embed(description=f"{snipe_message_content}")
         embed.set_footer(text=f"Requested By {message.author.name}#{message.author.discriminator}")
         embed.set_author(name = f"Sniped the message deleted by : {snipe_message_author}")
